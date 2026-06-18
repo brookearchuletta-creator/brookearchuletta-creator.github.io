@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keegan Brooke Company | Digital Narrative Architecture</title>
+    <style>
+        :root {
+            --bg-color: #fbfbfd;
+            --text-color: #1d1d1f;
+            --accent-color: #86868b;
+            --primary-button: #0071e3;
+            --font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            font-family: var(--font-stack);
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        header {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.2rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+        }
+
+        .nav-email {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.2s ease;
+        }
+
+        .nav-email:hover {
+            color: var(--text-color);
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        .hero {
+            margin-bottom: 80px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            letter-spacing: -0.04em;
+            line-height: 1.15;
+            margin-bottom: 24px;
+        }
+
+        .hero p {
+            font-size: 1.4rem;
+            color: var(--accent-color);
+            font-weight: 400;
+            letter-spacing: -0.01em;
+            margin-bottom: 40px;
+            max-width: 680px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--text-color);
+            color: #ffffff;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1rem;
+            transition: background-color 0.2s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #333336;
+        }
+
+        .section-title {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--accent-color);
+            margin-bottom: 32px;
+            border-bottom: 1px solid #e5e5ea;
+            padding-bottom: 8px;
+        }
+
+        .service-grid {
+            margin-bottom: 80px;
+        }
+
+        .service-card {
+            margin-bottom: 40px;
+        }
+
+        .service-card h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+            letter-spacing: -0.02em;
+        }
+
+        .service-card p {
+            font-size: 1.1rem;
+            color: #48484a;
+            margin-bottom: 8px;
+        }
+
+        .tier-price {
+            font-weight: 600;
+            color: var(--text-color);
+            font-size: 1.05rem;
+        }
+
+        .about-section {
+            margin-bottom: 80px;
+            font-size: 1.15rem;
+            color: #48484a;
+        }
+
+        footer {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            border-top: 1px solid #e5e5ea;
+            font-size: 0.85rem;
+            color: var(--accent-color);
+            display: flex;
+            justify-content: space-between;
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 2.2rem; }
+            .hero p { font-size: 1.2rem; }
+            footer { flex-direction: column; gap: 16px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">KEEGAN BROOKE COMPANY</div>
+        <a href="mailto:keeganbrookeco@gmail.com" class="nav-email">keeganbrookeco@gmail.com</a>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Weaving complex frameworks into compelling brand narratives.</h1>
+            <p>I help technical innovators, application developers, and creators distill complex utilities into high-impact digital stories that cultivate trust, engage audiences, and drive market acquisition.</p>
+            <a href="mailto:keeganbrookeco@gmail.com?subject=Consultation%20Inquiry" class="cta-button">Secure a Consultation</a>
+        </section>
+
+        <h2 class="section-title">Core Architecture Specializations</h2>
+        <section class="service-grid">
+            <div class="service-card">
+                <h3>Application Narrative Tiers & Messaging</h3>
+                <p>Translating sophisticated backend architecture, privacy frameworks, and digital utilities into elegant, user-centric benefit stories that simplify onboarding and increase conversions.</p>
+                <div class="tier-price">Bespoke Project Pricing</div>
+            </div>
+            
+            <div class="service-card">
+                <h3>High-Impact Pitch & Presentation Strategy</h3>
+                <p>Architecting structured, sequential digital frameworks and visual narratives designed for online product competitions, stakeholder engagement, and capital positioning.</p>
+                <div class="tier-price">Bespoke Project Pricing</div>
+            </div>
+
+            <div class="service-card">
+                <h3>Structured Publishing & Instructional Layouts</h3>
+                <p>Transforming complex regional geological data, historical records, or educational curriculum into clear, reader-friendly published works and guidebooks.</p>
+                <div class="tier-price">Bespoke Project Pricing</div>
+            </div>
+        </section>
+
+        <h2 class="section-title">The Philosophy</h2>
+        <section class="about-section">
+            <p>True communication lives at the intersection of clarity and engagement. Every application, publication, and brand profile carries an underlying story—the ultimate differentiator in a crowded digital landscape. By taking an analytical yet deeply creative approach to structural narrative architecture, I build custom digital experiences that resonate with intent, ensuring your brand leaves an unforgettable first impression.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div>&copy; 2026 Keegan Brooke Company. All rights reserved.</div>
+        <div>Designed for Independent Autonomy</div>
+    </footer>
+
+</body>
+</html>
